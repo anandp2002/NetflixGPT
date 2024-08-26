@@ -10,7 +10,7 @@ const VideoTitle = ({ title, overview, rating }) => {
         <p className="text-lg bg-black sm:bg-transparent pl-4 sm:pl-0">
           {rating} ★
         </p>
-        <p className="py-4 text-lg w-full sm:w-2/5 text-start bg-black sm:bg-transparent pl-4 sm:pl-0 pr-4 sm:pr-0">
+        <p className="py-4 text-lg w-full sm:w-1/4 text-start bg-black sm:bg-transparent pl-4 sm:pl-0 pr-4 sm:pr-0">
           {overview}
         </p>
         <div className="bg-black sm:bg-transparent pl-4 sm:pl-0 pb-6 sm:pb-0">

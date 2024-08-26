@@ -42,7 +42,7 @@ const Header = () => {
   }, [navigate, dispatch]);
 
   return (
-    <div className="flex justify-between z-10 absolute w-full bg-black sm:bg-gradient-to-b from-black px-8 py-2">
+    <div className="flex justify-between z-10 absolute w-full sm:bg-gradient-to-b from-black px-8 py-2">
       <img className="w-48" alt="netflix logo" src={Netflix_Logo_PMS} />
       {user && (
         <div className="flex items-center p-2">
