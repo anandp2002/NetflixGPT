@@ -1,12 +1,15 @@
 import React from 'react';
 
-const VideoTitle = ({ title, overview }) => {
+const VideoTitle = ({ title, overview, rating }) => {
   return (
     <div className="absolute w-full aspect-video pt-80 sm:pt-[20%]  pl-0 sm:pl-24 pr-0 sm:pr-6 text-white bg-transparent sm:bg-gradient-to-r from-black">
       <div className="h-1/2 mt-3 sm:mt-0">
         <h1 className="text-3xl font-bold bg-black sm:bg-transparent pl-4 sm:pl-0 pr-4 sm:pr-0">
           {title}
         </h1>
+        <p className="text-lg bg-black sm:bg-transparent pl-4 sm:pl-0">
+          {rating} ★
+        </p>
         <p className="py-4 text-lg w-full sm:w-2/5 text-start bg-black sm:bg-transparent pl-4 sm:pl-0 pr-4 sm:pr-0">
           {overview}
         </p>
