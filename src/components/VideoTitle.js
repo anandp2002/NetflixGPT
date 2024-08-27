@@ -14,10 +14,10 @@ const VideoTitle = ({ title, overview, rating }) => {
           {overview}
         </p>
         <div className="bg-black sm:bg-transparent pl-4 sm:pl-0 pb-6 sm:pb-0 pt-4">
-          <button className=" bg-white px-10 rounded-xl text-black p-4 text-xl hover:bg-opacity-80">
+          <button className=" bg-white px-6 rounded-xl text-black p-4 text-xl hover:bg-opacity-80">
             Play
           </button>
-          <button className="bg-opacity-50 bg-gray-500 hover:bg-gray-600 px-10 rounded-xl ml-2 text-white p-4 text-xl">
+          <button className="bg-opacity-50 bg-gray-500 hover:bg-gray-600 px-6 rounded-xl ml-3 text-white p-4 text-xl">
             More Info
           </button>
         </div>
